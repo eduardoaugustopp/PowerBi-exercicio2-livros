@@ -1,0 +1,14 @@
+relationship 07706d1e-922b-4445-bacf-4c3a9685d134
+	joinOnDateBehavior: datePartOnly
+	fromColumn: registro_notas_logistica.Data_Compra
+	toColumn: LocalDateTable_47253e28-f1a0-4014-8c96-631eab0883ba.Date
+
+relationship e36b410c-314f-4adb-873f-a128c4e708d9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: registro_notas_logistica.Data_Entrega
+	toColumn: LocalDateTable_eefeb3a3-6097-4814-9e61-81a1e1d39243.Date
+
+relationship 20f74e65-36a7-fedd-6f66-b46e233473bd
+	fromColumn: registro_notas_logistica.ID_Produto
+	toColumn: registro_livros_marketing.ID
+

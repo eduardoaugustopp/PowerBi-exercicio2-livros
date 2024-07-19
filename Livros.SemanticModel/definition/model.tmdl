@@ -1,0 +1,24 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["registro_livros_marketing","registro_notas_logistica","caminhoPasta"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.131.901.0 (24.07)
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table registro_livros_marketing
+ref table DateTableTemplate_b1c26561-3c9c-4b0e-9400-8e4ff75b17a5
+ref table registro_notas_logistica
+ref table LocalDateTable_47253e28-f1a0-4014-8c96-631eab0883ba
+ref table LocalDateTable_eefeb3a3-6097-4814-9e61-81a1e1d39243
+
+ref cultureInfo pt-BR
+

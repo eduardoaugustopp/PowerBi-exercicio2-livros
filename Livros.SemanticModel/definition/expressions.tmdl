@@ -1,0 +1,8 @@
+/// Diretório dos arquivos
+expression caminhoPasta = "C:\Users\eduar\OneDrive\Área de Trabalho\Alura_Finalizados\Projetos GitHub\powerBi-exercicio-2\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: a75b85d3-4803-43ca-a273-d77eeb4ac48e
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Text
+

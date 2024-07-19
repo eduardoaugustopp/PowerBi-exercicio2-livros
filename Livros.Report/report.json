@@ -1,0 +1,507 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2},\"customTheme\":{\"name\":\"Temperature\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":6,\"bookmarks\":[{\"displayName\":\"Editora Fundamento\",\"name\":\"0ac1895fa793e759a20e\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"38facfbbaab84ce6e670\",\"sections\":{\"38facfbbaab84ce6e670\":{\"visualContainers\":{\"6c750540d7b000876241\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}]}},\"highlight\":{\"selection\":[{\"dataMap\":{\"registro_livros_marketing.Editora\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Right\":{\"Literal\":{\"Value\":\"'Fundamento'\"}}}}}]},\"metadata\":[\"CountNonNull(registro_livros_marketing.Editora)\"]}],\"filterExpressionMetadata\":{\"expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}],\"cachedValueItems\":[{\"identities\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Right\":{\"Literal\":{\"Value\":\"'Fundamento'\"}}}}}],\"valueMap\":{\"0\":\"Fundamento\"}}]}}},\"1d9065b59838788bc4e9\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"ID_Produto\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}}]}}},\"c0fb6d0e13d86cb971ab\":{\"filters\":{\"byName\":{\"Filter42b9434e00e4151b95da\":{\"name\":\"Filter42b9434e00e4151b95da\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Exists\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}}}},\"Target\":[{\"SourceRef\":{\"Source\":\"r\"}}]}]},\"restatement\":\"Registro livros marketing that have registro notas logisticas\",\"howCreated\":0}},\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineChart\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}}]}}},\"2fb8c810e8640a69ddc4\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de faturamento\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de faturamento\"}}}]}},\"607f36510c500eac8099\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Porcentagem vendas\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Data_Compra\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"ID\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"accf9e8525e40b0e88a6\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de vendas\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de vendas\"}}}]}},\"fa190725a928b676d15d\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Unitário\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[\"6c750540d7b000876241\"]}},{\"displayName\":\"sem menu\",\"name\":\"8495fef6609a25ba6320\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"38facfbbaab84ce6e670\",\"sections\":{\"38facfbbaab84ce6e670\":{\"visualContainers\":{\"6c750540d7b000876241\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}]}},\"highlight\":{\"selection\":[{\"dataMap\":{\"registro_livros_marketing.Editora\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Right\":{\"Literal\":{\"Value\":\"'Casa da Palavra'\"}}}}}]},\"metadata\":[\"CountNonNull(registro_livros_marketing.Editora)\"]}],\"filterExpressionMetadata\":{\"expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}],\"cachedValueItems\":[{\"identities\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Right\":{\"Literal\":{\"Value\":\"'Casa da Palavra'\"}}}}}],\"valueMap\":{\"0\":\"Casa da Palavra\"}}]}}},\"1d9065b59838788bc4e9\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"ID_Produto\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}}]}}},\"c0fb6d0e13d86cb971ab\":{\"filters\":{\"byName\":{\"Filter42b9434e00e4151b95da\":{\"name\":\"Filter42b9434e00e4151b95da\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Exists\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}}}},\"Target\":[{\"SourceRef\":{\"Source\":\"r\"}}]}]},\"restatement\":\"Registro livros marketing that have registro notas logisticas\",\"howCreated\":0}},\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineChart\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}}]}}},\"2fb8c810e8640a69ddc4\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de faturamento\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de faturamento\"}}}]}},\"607f36510c500eac8099\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Porcentagem vendas\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Data_Compra\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"ID\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"accf9e8525e40b0e88a6\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de vendas\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de vendas\"}}}]}},\"fa190725a928b676d15d\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Unitário\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"91687235b1a23ea725d3\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"e327cf67edbd801c8528\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"c4e21bade5109005200d\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}}}],\"activeProjections\":{\"Values\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}}]}}},\"6e4b925266e5207908ca\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Título\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Título\"}}]}}},\"16e080d6b66ec10019de\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}}},\"visualContainerGroups\":{\"37b3074baec05a67a774\":{\"isHidden\":true}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[],\"suppressData\":true}},{\"displayName\":\"com menu\",\"name\":\"6f8e0ce7dd06c3b2a23d\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"38facfbbaab84ce6e670\",\"sections\":{\"38facfbbaab84ce6e670\":{\"visualContainers\":{\"6c750540d7b000876241\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}]}},\"highlight\":{\"selection\":[{\"dataMap\":{\"registro_livros_marketing.Editora\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Right\":{\"Literal\":{\"Value\":\"'Casa da Palavra'\"}}}}}]},\"metadata\":[\"CountNonNull(registro_livros_marketing.Editora)\"]}],\"filterExpressionMetadata\":{\"expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}],\"cachedValueItems\":[{\"identities\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Right\":{\"Literal\":{\"Value\":\"'Casa da Palavra'\"}}}}}],\"valueMap\":{\"0\":\"Casa da Palavra\"}}]}}},\"1d9065b59838788bc4e9\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"ID_Produto\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}}]}}},\"c0fb6d0e13d86cb971ab\":{\"filters\":{\"byName\":{\"Filter42b9434e00e4151b95da\":{\"name\":\"Filter42b9434e00e4151b95da\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Exists\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}}}},\"Target\":[{\"SourceRef\":{\"Source\":\"r\"}}]}]},\"restatement\":\"Registro livros marketing that have registro notas logisticas\",\"howCreated\":0}},\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineChart\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"}}]}}},\"2fb8c810e8640a69ddc4\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de faturamento\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de faturamento\"}}}]}},\"607f36510c500eac8099\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Porcentagem vendas\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Data_Compra\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"ID\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"accf9e8525e40b0e88a6\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de vendas\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"card\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Property\":\"Total de vendas\"}}}]}},\"fa190725a928b676d15d\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Preço Unitário\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"91687235b1a23ea725d3\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"e327cf67edbd801c8528\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"c4e21bade5109005200d\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}}}],\"activeProjections\":{\"Values\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_notas_logistica\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}}]}}},\"6e4b925266e5207908ca\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Título\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Título\"}}]}}},\"16e080d6b66ec10019de\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}}},\"visualContainerGroups\":{\"37b3074baec05a67a774\":{\"isHidden\":false}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[],\"suppressData\":true}},{\"displayName\":\"analise1\",\"name\":\"4993ba8aa00e0e000a05\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"7ba1eaf105e2098cb39b\",\"sections\":{\"7ba1eaf105e2098cb39b\":{\"visualContainers\":{\"d6303afb5261bb3040b9\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}]}}},\"c41fbe4a2bcd10730c6a\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{},\"display\":{\"mode\":\"hidden\"}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}},{\"displayName\":\"analise 1.1\",\"name\":\"5121669f0eeee7c3c078\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"7ba1eaf105e2098cb39b\",\"sections\":{\"7ba1eaf105e2098cb39b\":{\"visualContainers\":{\"d6303afb5261bb3040b9\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}},\"Function\":5}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}]}}},\"c41fbe4a2bcd10730c6a\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}}],\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          },
+          {
+            "name": "Temperature",
+            "path": "BuiltInThemes/Temperature.json",
+            "type": 201
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "fundo_apresentacao6042909085782511.png",
+            "path": "fundo_apresentacao6042909085782511.png",
+            "type": 100
+          },
+          {
+            "name": "fundo_plano5481273799486246.png",
+            "path": "fundo_plano5481273799486246.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Página 3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "34a17cafb15b601e812a",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0d0843a55e038e61d4a7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"z\":0,\"width\":576.6666666666666,\"height\":333.3333333333333,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_livros_marketing.Categoria\"},{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 333.33,
+          "width": 576.67,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2dc73cb1050297b035cd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.47953216374269,\"y\":342.83040935672517,\"z\":1000,\"width\":1122.8070175438597,\"height\":333.84795321637426,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_livros_marketing.Categoria\",\"active\":true}],\"Y\":[{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 333.85,
+          "width": 1122.81,
+          "x": 10.48,
+          "y": 342.83,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo_apresentacao.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo_apresentacao6042909085782511.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Apresentação3",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "362fa7c1cc82808a8ad0",
+      "ordinal": 11,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"12dc9bb7d80a3284ba45\",\"layouts\":[{\"id\":0,\"position\":{\"x\":225,\"y\":333.33333333333337,\"z\":0,\"width\":830,\"height\":201.66666666666669,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"active\":true},{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"NativeReferenceName\":\"Data_Compra Ano\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"NativeReferenceName\":\"Data_Compra Mês\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\",\"NativeReferenceName\":\"Contagem de Preço Promocional\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"y2Axis\":[{\"properties\":{\"secLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"lineStyles\":[{\"properties\":{\"strokeShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FF0000'\"}}}}}},\"selector\":{\"metadata\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter42b9434e00e4151b95da\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Exists\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}}}},\"Target\":[{\"SourceRef\":{\"Source\":\"r\"}}]}]},\"restatement\":\"Registro livros marketing that have registro notas logisticas\",\"howCreated\":0}]",
+          "height": 201.67,
+          "width": 830.00,
+          "x": 225.00,
+          "y": 333.33,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo_plano.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo_plano5481273799486246.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}",
+      "displayName": "Página 8",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "38facfbbaab84ce6e670",
+      "ordinal": 7,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"16e080d6b66ec10019de\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1075,\"y\":25,\"z\":4000,\"width\":100,\"height\":91.66666666666667,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"bookmark\":{\"expr\":{\"Literal\":{\"Value\":\"'8495fef6609a25ba6320'\"}}}}}]}},\"parentGroupName\":\"37b3074baec05a67a774\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 91.67,
+          "width": 100.00,
+          "x": 1075.00,
+          "y": 25.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"1d9065b59838788bc4e9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":58.333333333333336,\"y\":215,\"z\":1000,\"width\":753.3333333333334,\"height\":240,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"active\":true},{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"active\":true}],\"Y2\":[{\"queryRef\":\"CountNonNull(registro_notas_logistica.ID_Produto)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"NativeReferenceName\":\"Data_Compra Ano\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"NativeReferenceName\":\"Data_Compra Mês\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID_Produto\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_notas_logistica.ID_Produto)\",\"NativeReferenceName\":\"Contagem de ID_Produto\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 753.33,
+          "x": 58.33,
+          "y": 215.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"2fb8c810e8640a69ddc4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":45,\"y\":83.33333333333334,\"z\":6000,\"width\":275,\"height\":118.33333333333334,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de faturamento\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"altText\":{\"expr\":{\"Literal\":{\"Value\":\"'TOTAL DE FATURAMENTO'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 118.33,
+          "width": 275.00,
+          "x": 45.00,
+          "y": 83.33,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"37b3074baec05a67a774\",\"layouts\":[{\"id\":0,\"position\":{\"height\":141.66666666666669,\"width\":1260,\"x\":20,\"y\":0,\"z\":7000,\"tabOrder\":7000}}],\"singleVisualGroup\":{\"displayName\":\"Menu Samduiche\",\"groupMode\":0,\"isHidden\":true}}",
+          "height": 141.67,
+          "width": 1260.00,
+          "x": 20.00,
+          "y": 0.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"607f36510c500eac8099\",\"layouts\":[{\"id\":0,\"position\":{\"x\":965,\"y\":98.33333333333334,\"z\":3000,\"width\":258.33333333333337,\"height\":103.33333333333334,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"Goal\":[{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}],\"TrendLine\":[{\"queryRef\":\"registro_notas_logistica.Data_Compra\"}],\"Indicator\":[{\"queryRef\":\"CountNonNull(registro_livros_marketing.ID)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Data_Compra\"},\"Name\":\"registro_notas_logistica.Data_Compra\",\"NativeReferenceName\":\"Data_Compra\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_livros_marketing.ID)\",\"NativeReferenceName\":\"Contagem de ID\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"indicator\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 103.33,
+          "width": 258.33,
+          "x": 965.00,
+          "y": 98.33,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"6a65fb29894dc448eab1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1180,\"y\":0,\"z\":8000,\"width\":100,\"height\":40,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"bookmark\":{\"expr\":{\"Literal\":{\"Value\":\"'6f8e0ce7dd06c3b2a23d'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 1180.00,
+          "y": 0.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"6c750540d7b000876241\",\"layouts\":[{\"id\":0,\"position\":{\"x\":845,\"y\":215,\"z\":0,\"width\":378.33333333333337,\"height\":240,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_livros_marketing.Editora\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(registro_livros_marketing.Editora)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"},\"Name\":\"registro_livros_marketing.Editora\",\"NativeReferenceName\":\"Editora\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_livros_marketing.Editora)\",\"NativeReferenceName\":\"Contagem de Editora\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 378.33,
+          "x": 845.00,
+          "y": 215.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"6e4b925266e5207908ca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":286.6666666666667,\"y\":53.333333333333336,\"z\":3000,\"width\":278.33333333333337,\"height\":70,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_livros_marketing.Título\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Título\"},\"Name\":\"registro_livros_marketing.Título\",\"NativeReferenceName\":\"Título\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}},\"parentGroupName\":\"37b3074baec05a67a774\"}",
+          "filters": "[]",
+          "height": 70.00,
+          "width": 278.33,
+          "x": 286.67,
+          "y": 53.33,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"91687235b1a23ea725d3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1260,\"height\":141.66666666666669,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"bookmark\":{\"expr\":{\"Literal\":{\"Value\":\"'8495fef6609a25ba6320'\"}}}}}]}},\"parentGroupName\":\"37b3074baec05a67a774\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 141.67,
+          "width": 1260.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"accf9e8525e40b0e88a6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":350,\"y\":80,\"z\":4000,\"width\":278.33333333333337,\"height\":121.66666666666667,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_notas_logistica.Total de vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de vendas\"},\"Name\":\"registro_notas_logistica.Total de vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de vendas\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 121.67,
+          "width": 278.33,
+          "x": 350.00,
+          "y": 80.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"c0fb6d0e13d86cb971ab\",\"layouts\":[{\"id\":0,\"position\":{\"x\":68.33333333333334,\"y\":486.6666666666667,\"z\":2000,\"width\":1143.3333333333335,\"height\":201.66666666666669,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"active\":true},{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"NativeReferenceName\":\"Data_Compra Ano\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"NativeReferenceName\":\"Data_Compra Mês\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\",\"NativeReferenceName\":\"Contagem de Preço Promocional\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter42b9434e00e4151b95da\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Exists\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}}}},\"Target\":[{\"SourceRef\":{\"Source\":\"r\"}}]}]},\"restatement\":\"Registro livros marketing that have registro notas logisticas\",\"howCreated\":0}]",
+          "height": 201.67,
+          "width": 1143.33,
+          "x": 68.33,
+          "y": 486.67,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"c4e21bade5109005200d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.333333333333336,\"y\":53.333333333333336,\"z\":2000,\"width\":278.33333333333337,\"height\":70,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"NativeReferenceName\":\"Data_Compra Ano\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}},\"parentGroupName\":\"37b3074baec05a67a774\"}",
+          "filters": "[]",
+          "height": 70.00,
+          "width": 278.33,
+          "x": 38.33,
+          "y": 53.33,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"e327cf67edbd801c8528\",\"layouts\":[{\"id\":0,\"position\":{\"x\":38.333333333333336,\"y\":11.666666666666668,\"z\":1000,\"width\":341.6666666666667,\"height\":41.66666666666667,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"FILTROS\"}]}]}}]}},\"parentGroupName\":\"37b3074baec05a67a774\"}",
+          "filters": "[]",
+          "height": 41.67,
+          "width": 341.67,
+          "x": 38.33,
+          "y": 11.67,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"fa190725a928b676d15d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":671.6666666666667,\"y\":98.33333333333334,\"z\":5000,\"width\":253.33333333333334,\"height\":103.33333333333334,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"Indicator\":[{\"queryRef\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\"}],\"TrendLine\":[{\"queryRef\":\"registro_livros_marketing.Preço Unitário\"}],\"Goal\":[{\"queryRef\":\"CountNonNull(registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Preço Promocional\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_livros_marketing.Preço Promocional)\",\"NativeReferenceName\":\"Contagem de Preço Promocional\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Preço Unitário\"},\"Name\":\"registro_livros_marketing.Preço Unitário\",\"NativeReferenceName\":\"Preço Unitário\"},{\"Aggregation\":{\"Expression\":{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano)\",\"NativeReferenceName\":\"Contagem de Hierarquia de datas Ano\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"indicator\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 103.33,
+          "width": 253.33,
+          "x": 671.67,
+          "y": 98.33,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"visibility\":1,\"type\":1}",
+      "displayName": "Dica",
+      "displayOption": 3,
+      "filters": "[]",
+      "height": 240.00,
+      "name": "3d67ade21442a0d076ec",
+      "ordinal": 8,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"463a5097b4dd52729146\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"z\":0,\"width\":298,\"height\":101,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(registro_livros_marketing.Título)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Título\"}},\"Function\":3},\"Name\":\"Min(registro_livros_marketing.Título)\",\"NativeReferenceName\":\"Título\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 101.00,
+          "width": 298.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"bf595700a12163db1c5c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":27,\"y\":101,\"z\":1,\"width\":262,\"height\":117,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Porcentagem vendas\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 117.00,
+          "width": 262.00,
+          "x": 27.00,
+          "y": 101.00,
+          "z": 1.00
+        }
+      ],
+      "width": 320.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 5",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "423151d70d4bb5c932b6",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"be48ced662184b03c0ab\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"z\":0,\"width\":518.8888888888889,\"height\":582.2222222222222,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"registro_livros_marketing.Categoria\",\"active\":true},{\"queryRef\":\"registro_livros_marketing.Editora\",\"active\":true}],\"Values\":[{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Porcentagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"},\"Name\":\"registro_livros_marketing.Editora\",\"NativeReferenceName\":\"Editora\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem\"},\"Name\":\"registro_notas_logistica.Porcentagem\",\"NativeReferenceName\":\"Porcentagem\"}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"registro_livros_marketing.Categoria\"],\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Categoria\"}}],\"isPinned\":true},{\"queryRefs\":[\"registro_livros_marketing.Editora\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null,\"children\":[{\"identityValues\":[{\"Literal\":{\"Value\":\"'Desenvolvimento Pessoal/Liderança'\"}}],\"isToggled\":true}]}}],\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 582.22,
+          "width": 518.89,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"d950a7b04dbe5b7ee0d2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":635.5555555555555,\"y\":14.444444444444445,\"z\":1000,\"width\":644.4444444444445,\"height\":582.2222222222222,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"registro_livros_marketing.Editora\",\"active\":true},{\"queryRef\":\"registro_livros_marketing.Categoria\",\"active\":true}],\"Values\":[{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Porcentagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"},\"Name\":\"registro_livros_marketing.Editora\",\"NativeReferenceName\":\"Editora\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem\"},\"Name\":\"registro_notas_logistica.Porcentagem\",\"NativeReferenceName\":\"Porcentagem\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"}}},{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"registro_livros_marketing.Editora\"],\"isPinned\":true},{\"queryRefs\":[\"registro_livros_marketing.Categoria\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Categoria\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 582.22,
+          "width": 644.44,
+          "x": 635.56,
+          "y": 14.44,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "56cb0a5e9ed477952bad",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1cce9a326c34cad87ee2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.578512396694215,\"y\":0,\"z\":0,\"width\":811.5230224321133,\"height\":430.6965761511216,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_livros_marketing.ID\"},{\"queryRef\":\"registro_livros_marketing.Título\"},{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Total de Faturamento ALL\"},{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID\"},\"Name\":\"registro_livros_marketing.ID\",\"NativeReferenceName\":\"ID\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Título\"},\"Name\":\"registro_livros_marketing.Título\",\"NativeReferenceName\":\"Título\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de Faturamento ALL\"},\"Name\":\"registro_notas_logistica.Total de Faturamento ALL\",\"NativeReferenceName\":\"Total de Faturamento ALL\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 430.70,
+          "width": 811.52,
+          "x": 10.58,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo_apresentacao.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo_apresentacao6042909085782511.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Apresentação1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "7ba1eaf105e2098cb39b",
+      "ordinal": 9,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"c41fbe4a2bcd10730c6a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":743.75,\"y\":145,\"z\":1000,\"width\":328.75,\"height\":76.25,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Mais de 23%\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"14pt\",\"color\":\"#a8aac8\"}},{\"value\":\" \"},{\"value\":\"dos livros\",\"textStyle\":{\"color\":\"#26b0d2\"}},{\"value\":\" \"},{\"value\":\"da\",\"textStyle\":{\"color\":\"#ffffff\"}},{\"value\":\" \"},{\"value\":\"editora Sextante.\",\"textStyle\":{\"color\":\"#ff0000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 76.25,
+          "width": 328.75,
+          "x": 743.75,
+          "y": 145.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"d6303afb5261bb3040b9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":336.6666666666667,\"y\":201.66666666666669,\"z\":0,\"width\":610,\"height\":401.6666666666667,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_livros_marketing.Editora\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(registro_livros_marketing.Editora)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"},\"Name\":\"registro_livros_marketing.Editora\",\"NativeReferenceName\":\"Editora\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_livros_marketing.Editora)\",\"NativeReferenceName\":\"Contagem de Editora\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 401.67,
+          "width": 610.00,
+          "x": 336.67,
+          "y": 201.67,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "85b086f3645c40000947",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"b54dbcb54862c81b470d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.067296340023612,\"y\":0,\"z\":0,\"width\":713.2939787485242,\"height\":231.21605667060211,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(registro_notas_logistica.ID_Fatura)\"},{\"queryRef\":\"registro_notas_logistica.ID_Produto\"},{\"queryRef\":\"registro_notas_logistica.Data_Compra\"},{\"queryRef\":\"registro_notas_logistica.Data_Entrega\"},{\"queryRef\":\"registro_notas_logistica.Categoria do livro\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID_Fatura\"},\"Name\":\"Sum(registro_notas_logistica.ID_Fatura)\",\"NativeReferenceName\":\"ID_Fatura\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID_Produto\"},\"Name\":\"registro_notas_logistica.ID_Produto\",\"NativeReferenceName\":\"ID_Produto\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Data_Compra\"},\"Name\":\"registro_notas_logistica.Data_Compra\",\"NativeReferenceName\":\"Data_Compra\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Data_Entrega\"},\"Name\":\"registro_notas_logistica.Data_Entrega\",\"NativeReferenceName\":\"Data_Entrega\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria do livro\"},\"Name\":\"registro_notas_logistica.Categoria do livro\",\"NativeReferenceName\":\"Categoria do livro\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 231.22,
+          "width": 713.29,
+          "x": 9.07,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f2a591c4e322e09c3164\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.067296340023612,\"y\":255.39551357733174,\"z\":1000,\"width\":766.1865407319953,\"height\":442.7863046044864,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_notas_logistica.ID_Produto\"},{\"queryRef\":\"registro_livros_marketing.Quantidade Vendas\"},{\"queryRef\":\"Sum(registro_notas_logistica.Quantidade vendida Logística)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID_Produto\"},\"Name\":\"registro_notas_logistica.ID_Produto\",\"NativeReferenceName\":\"ID_Produto\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Quantidade Vendas\"},\"Name\":\"registro_livros_marketing.Quantidade Vendas\",\"NativeReferenceName\":\"Quantidade Vendas\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Quantidade vendida Logística\"},\"Name\":\"Sum(registro_notas_logistica.Quantidade vendida Logística)\",\"NativeReferenceName\":\"Quantidade vendida Logística\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 442.79,
+          "width": 766.19,
+          "x": 9.07,
+          "y": 255.40,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 7",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "9e0a7ba00eb0b6069abc",
+      "ordinal": 6,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"27685b47a037902cc14c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":431.1578947368421,\"z\":1000,\"width\":844.3508771929825,\"height\":288.9356725146199,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}],\"Category\":[{\"queryRef\":\"registro_livros_marketing.Categoria\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Porcentagem vendas\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 288.94,
+          "width": 844.35,
+          "x": 0.00,
+          "y": 431.16,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"34ecdf182071952b16e0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":923.6959064327485,\"y\":0,\"z\":4000,\"width\":356.30409356725147,\"height\":294.92397660818716,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de faturamento\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 294.92,
+          "width": 356.30,
+          "x": 923.70,
+          "y": 0.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"8eef1f9653c4e10e24c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":532.9590643274854,\"y\":0,\"z\":3000,\"width\":747.0409356725146,\"height\":396.72514619883043,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"registro_livros_marketing.Editora\",\"active\":true},{\"queryRef\":\"registro_livros_marketing.Categoria\"}],\"Values\":[{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Porcentagem\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"},\"Name\":\"registro_livros_marketing.Editora\",\"NativeReferenceName\":\"Editora\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem\"},\"Name\":\"registro_notas_logistica.Porcentagem\",\"NativeReferenceName\":\"Porcentagem\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"registro_livros_marketing.Editora\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Editora\"}}],\"isPinned\":true},{\"queryRefs\":[\"registro_livros_marketing.Categoria\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"registro_livros_marketing\"}},\"Property\":\"Categoria\"}}],\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 396.73,
+          "width": 747.04,
+          "x": 532.96,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b780d52922e2bcd46d02\",\"layouts\":[{\"id\":0,\"position\":{\"x\":242.52631578947367,\"y\":471.57894736842104,\"z\":0,\"width\":306.90058479532166,\"height\":221.5672514619883,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Total de faturamento\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 221.57,
+          "width": 306.90,
+          "x": 242.53,
+          "y": 471.58,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"c309817806752640b450\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":2000,\"width\":559.906432748538,\"height\":431.1578947368421,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"registro_notas_logistica.Porcentagem vendas\"}],\"Category\":[{\"queryRef\":\"registro_livros_marketing.Título\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0},{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"},\"Name\":\"registro_notas_logistica.Porcentagem vendas\",\"NativeReferenceName\":\"Porcentagem vendas\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Título\"},\"Name\":\"registro_livros_marketing.Título\",\"NativeReferenceName\":\"Título\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Porcentagem vendas\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"visualTooltip\":[{\"properties\":{\"section\":{\"expr\":{\"Literal\":{\"Value\":\"'3d67ade21442a0d076ec'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 431.16,
+          "width": 559.91,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo_apresentacao.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo_apresentacao6042909085782511.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Apresentação2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "de4d3829382ce3c69775",
+      "ordinal": 10,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"eb92a582c183a78b8c90\",\"layouts\":[{\"id\":0,\"position\":{\"x\":241.66666666666669,\"y\":270,\"z\":0,\"width\":796.6666666666667,\"height\":341.6666666666667,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"active\":true},{\"queryRef\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"active\":true}],\"Y2\":[{\"queryRef\":\"CountNonNull(registro_notas_logistica.ID_Produto)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Ano\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Ano\",\"NativeReferenceName\":\"Data_Compra Ano\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Data_Compra\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"},\"Name\":\"registro_notas_logistica.Data_Compra.Variation.Hierarquia de datas.Mês\",\"NativeReferenceName\":\"Data_Compra Mês\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ID_Produto\"}},\"Function\":5},\"Name\":\"CountNonNull(registro_notas_logistica.ID_Produto)\",\"NativeReferenceName\":\"Contagem de ID_Produto\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"titleColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"lineStyles\":[{\"properties\":{\"strokeShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FF0000'\"}}}}}},\"selector\":{\"metadata\":\"CountNonNull(registro_notas_logistica.ID_Produto)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 341.67,
+          "width": 796.67,
+          "x": 241.67,
+          "y": 270.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 4",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "eff2e5af0546adc9cdc5",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"5ca56877834d42d5a0d7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":393,\"width\":870,\"height\":327,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_livros_marketing.Editora\"},{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Desenvolvimento Pessoal Vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Editora\"},\"Name\":\"registro_livros_marketing.Editora\",\"NativeReferenceName\":\"Editora\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Desenvolvimento Pessoal Vendas\"},\"Name\":\"registro_notas_logistica.Desenvolvimento Pessoal Vendas\",\"NativeReferenceName\":\"Desenvolvimento Pessoal Vendas\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"137.22222305109477D\"}}}},\"selector\":{\"metadata\":\"registro_livros_marketing.Editora\"}}]}}}",
+          "filters": "[]",
+          "height": 327.00,
+          "width": 870.00,
+          "x": 0.00,
+          "y": 393.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"e93111f01ae19cd1440c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":870,\"height\":383.3333333333333,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_livros_marketing.Categoria\"},{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Fantasia Vendas\"},{\"queryRef\":\"registro_notas_logistica.Desenvolvimento Pessoal Vendas\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Desenvolvimento Pessoal Vendas ALL\"},\"Name\":\"registro_notas_logistica.Fantasia Vendas\",\"NativeReferenceName\":\"Desenvolvimento Pessoal Vendas ALL\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Desenvolvimento Pessoal Vendas\"},\"Name\":\"registro_notas_logistica.Desenvolvimento Pessoal Vendas\",\"NativeReferenceName\":\"Desenvolvimento Pessoal Vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Desenvolvimento Pessoal Vendas\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 383.33,
+          "width": 870.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 6",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "fbdccdb4294b7da84c96",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"4c94a546772129e5c8b2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"z\":0,\"width\":778.8888888888889,\"height\":444.44444444444446,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"registro_livros_marketing.Categoria\"},{\"queryRef\":\"registro_notas_logistica.Total de faturamento\"},{\"queryRef\":\"registro_notas_logistica.Total de vendas Fantasia\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"registro_livros_marketing\",\"Type\":0},{\"Name\":\"r1\",\"Entity\":\"registro_notas_logistica\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"Categoria\"},\"Name\":\"registro_livros_marketing.Categoria\",\"NativeReferenceName\":\"Categoria\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de faturamento\"},\"Name\":\"registro_notas_logistica.Total de faturamento\",\"NativeReferenceName\":\"Total de faturamento\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r1\"}},\"Property\":\"Total de vendas\"},\"Name\":\"registro_notas_logistica.Total de vendas Fantasia\",\"NativeReferenceName\":\"Total de vendas Fantasias\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 444.44,
+          "width": 778.89,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Temperature"
+}

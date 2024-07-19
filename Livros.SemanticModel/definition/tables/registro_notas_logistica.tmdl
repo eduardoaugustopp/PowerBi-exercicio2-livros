@@ -1,0 +1,189 @@
+table registro_notas_logistica
+	lineageTag: 822313cd-c28b-4c1d-9ba3-43336e73bc42
+
+	measure 'Total de faturamento' = SUMX('registro_livros_marketing', 'registro_livros_marketing'[Quantidade Vendas] * 'registro_livros_marketing'[Preço Unitário])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: c7f67deb-f84b-43d8-b9de-f39fa211bf8c
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Total de Faturamento ALL' = SUMX(ALL('registro_livros_marketing'), 'registro_livros_marketing'[Quantidade Vendas] * 'registro_livros_marketing'[Preço Unitário])
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: ff942700-7144-49d0-917d-59b2f722fc13
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Porcentagem vendas' = DIVIDE('registro_notas_logistica'[Total de faturamento], 'registro_notas_logistica'[Total de Faturamento ALL])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 274a2506-b618-49a6-897d-949a814e2c6f
+
+	measure 'Desenvolvimento Pessoal Vendas ALL' =
+			
+			CALCULATE('registro_notas_logistica'[Total de faturamento],
+			FILTER(ALL('registro_livros_marketing'[Categoria]),
+			    'registro_livros_marketing'[Categoria] = "Desenvolvimento Pessoal"))
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 44e99217-e75e-4b35-97ea-5f3c9a882f47
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Desenvolvimento Pessoal Vendas' =
+			CALCULATE('registro_notas_logistica'[Total de faturamento],
+			FILTER('registro_livros_marketing',
+			    'registro_livros_marketing'[Categoria] = "Desenvolvimento Pessoal"))
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 33557462-7785-4813-b267-9bcb47679f73
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure Porcentagem =
+			
+			VAR TotalDeFaturamentoEditora = 'registro_notas_logistica'[Total de faturamento]
+			VAR TotalDeVendasCategoria = CALCULATE('registro_notas_logistica'[total de faturamento], ALL (registro_livros_marketing[Categoria]))
+			VAR porcentagem = DIVIDE(TotalDeFaturamentoEditora, TotalDeVendasCategoria)
+			RETURN
+			porcentagem
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 3364d405-cf79-49d4-8a1b-3b55164b2dd7
+
+	measure 'Total de vendas' =
+			CALCULATE(
+			    'registro_notas_logistica'[Total de faturamento],
+			    KEEPFILTERS('registro_livros_marketing'[Categoria] in {"Desenvolvimento Pessoal", "Produtividade"}))
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 42b5c99b-e994-47cb-95b9-e0454d469546
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column ID_Produto
+		dataType: int64
+		formatString: 0
+		lineageTag: 3db94173-92ac-4bf6-9f8d-a480219ab66f
+		summarizeBy: none
+		sourceColumn: ID_Produto
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Compra
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: cdc3ebe0-4c9c-4439-a636-1bbffb597b2c
+		summarizeBy: none
+		sourceColumn: Data_Compra
+
+		variation Variation
+			isDefault
+			relationship: 07706d1e-922b-4445-bacf-4c3a9685d134
+			defaultHierarchy: LocalDateTable_47253e28-f1a0-4014-8c96-631eab0883ba.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Entrega
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: fe368f98-31ab-4b27-b0ba-5d94c7b3552b
+		summarizeBy: none
+		sourceColumn: Data_Entrega
+
+		variation Variation
+			isDefault
+			relationship: e36b410c-314f-4adb-873f-a128c4e708d9
+			defaultHierarchy: LocalDateTable_eefeb3a3-6097-4814-9e61-81a1e1d39243.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Metodo_Pagamento
+		dataType: string
+		lineageTag: 0f878693-d9ea-418c-8113-8ea1558cfe87
+		summarizeBy: none
+		sourceColumn: Metodo_Pagamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Endereco_Entrega
+		dataType: string
+		lineageTag: 16462f6e-c22e-4403-bbf0-b61279462028
+		summarizeBy: none
+		sourceColumn: Endereco_Entrega
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cidade_Entrega
+		dataType: string
+		lineageTag: 5bd0da4c-c4d9-4289-a4ac-102674d54b98
+		summarizeBy: none
+		sourceColumn: Cidade_Entrega
+
+		annotation SummarizationSetBy = Automatic
+
+	column Codigo_Postal_Entrega
+		dataType: int64
+		formatString: 0
+		lineageTag: e4424821-1a8b-493f-b2a7-29eae87260a5
+		summarizeBy: sum
+		sourceColumn: Codigo_Postal_Entrega
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Fatura
+		dataType: int64
+		formatString: 0
+		lineageTag: 7cd83437-d645-4310-9b50-bb5cb7a17a82
+		summarizeBy: sum
+		sourceColumn: ID_Fatura
+
+		annotation SummarizationSetBy = Automatic
+
+	column Índice
+		dataType: int64
+		formatString: 0
+		lineageTag: fd09fb8d-9ef8-4ca1-8069-1c2095b2f36e
+		summarizeBy: sum
+		sourceColumn: Índice
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Categoria do livro' =
+			RELATED('registro_livros_marketing'[Categoria])
+			-- Buscando informação de categoria
+		dataType: string
+		lineageTag: 4d0f0c6a-3c96-46c8-b5fe-bac0b4ca4c00
+		summarizeBy: none
+		isDataTypeInferred
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Quantidade vendida Logística' =
+			
+			VAR ID_ATUAL = 'registro_notas_logistica'[ID_Produto]
+			VAR TABELA_IDS = FILTER('registro_notas_logistica', 'registro_notas_logistica'[ID_Produto] = ID_ATUAL)
+			RETURN
+			    COUNTROWS(TABELA_IDS)
+		dataType: int64
+		formatString: 0
+		lineageTag: b29284e8-6485-4a2b-a678-65da7a1b26ca
+		summarizeBy: sum
+		isDataTypeInferred
+
+		annotation SummarizationSetBy = Automatic
+
+	partition registro_notas_logistica = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(caminhoPasta & "registro_notas_logistica.csv"),[Delimiter=";", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Cabeçalhos Promovidos", each ([ID_Produto] = "1" or [ID_Produto] = "10" or [ID_Produto] = "11" or [ID_Produto] = "12" or [ID_Produto] = "13" or [ID_Produto] = "14" or [ID_Produto] = "15" or [ID_Produto] = "16" or [ID_Produto] = "17" or [ID_Produto] = "2" or [ID_Produto] = "3" or [ID_Produto] = "4" or [ID_Produto] = "5" or [ID_Produto] = "6" or [ID_Produto] = "7" or [ID_Produto] = "8" or [ID_Produto] = "9")),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Linhas Filtradas",{{"ID_Fatura", Int64.Type}, {"ID_Produto", Int64.Type}, {"Data_Compra", type datetime}, {"Data_Entrega", type datetime}, {"Codigo_Postal_Entrega", Int64.Type}}),
+				    #"Índice Adicionado" = Table.AddIndexColumn(#"Tipo Alterado", "Índice", 1, 1, Int64.Type),
+				    #"Índice Adicionado1" = Table.AddIndexColumn(#"Índice Adicionado", "Índice.1", 1, 1, Int64.Type),
+				    #"Colunas Reordenadas" = Table.ReorderColumns(#"Índice Adicionado1",{"Índice.1", "ID_Fatura", "ID_Produto", "Data_Compra", "Data_Entrega", "Metodo_Pagamento", "Endereco_Entrega", "Cidade_Entrega", "Codigo_Postal_Entrega", "Índice"}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Colunas Reordenadas",{"ID_Fatura"}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Colunas Removidas",{{"Índice.1", "ID_Fatura"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

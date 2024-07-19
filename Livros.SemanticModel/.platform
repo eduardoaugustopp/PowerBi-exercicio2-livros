@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Livros"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "dc303e3f-62fa-469a-a987-2ac77dbde265"
+  }
+}

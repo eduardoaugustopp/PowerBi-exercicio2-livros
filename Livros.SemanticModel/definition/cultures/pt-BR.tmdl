@@ -1,0 +1,3721 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "registro_livros_marketing": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "registro livros marketing": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "registro livros marketing": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "registro livro marketing": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "registro_livros_marketing": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "registro livro promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "registro livro presentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "registro livro advertising": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "registro livro selling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "registro livro publicizing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "registro_livros_marketing.título": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "Título"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "título": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "título": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing.categoria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "Categoria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "categoria": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing.preço_unitário": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "Preço Unitário"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço unitário": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preço unitário": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing.preço_promocional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "Preço Promocional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "preço promocional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "preço promocional": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing.quantidade_venda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "Quantidade Vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade venda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade venda": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing.editora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_livros_marketing",
+			          "ConceptualProperty": "Editora"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "editora": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "editora": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "registro notas logistica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "registro notas logistica": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "registro nota logistica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "registro_notas_logistica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.ID_produto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "ID_Produto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID produto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID produto": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Produto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential produto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_compra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Data_Compra"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data compra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Data_Compra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record compra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "registro_notas_logistica.data_compra.variation.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de data": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra ano": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mê": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra mê": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Compra",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dia": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data compra dia": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record compra dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Data_Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Data_Entrega": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record entrega": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "registro_notas_logistica.data_entrega.variation.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de data": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega ano": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mê": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega mê": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "VariationSource": "Data_Entrega",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dia": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data entrega dia": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record entrega dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.metodo_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Metodo_Pagamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "metodo pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "metodo pagamento": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Metodo_Pagamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.endereco_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Endereco_Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "endereco entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "endereco entrega": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Endereco_Entrega": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.cidade_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Cidade_Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cidade entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cidade entrega": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cidade_Entrega": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.codigo_postal_entrega": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Codigo_Postal_Entrega"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo postal entrega": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "codigo postal entrega": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Codigo_Postal_Entrega": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.ID_fatura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "ID_Fatura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID fatura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID fatura": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Fatura": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification fatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity fatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier fatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential fatura": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.índice": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Índice"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "índice": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "índice": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.categoria_do_livro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Categoria do livro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "categoria do livro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "categoria do livro": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.quantidade_vendida_logística": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Quantidade vendida Logística"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantidade vendida logística": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantidade vendida logística": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.total_de_faturamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Total de faturamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de faturamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total de faturamento": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de faturamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de faturamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.total_de_faturamento_ALL": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Total de Faturamento ALL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de faturamento ALL": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total de faturamento ALL": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de faturamento all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall de faturamento all": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.porcentagem_vendas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Porcentagem vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porcentagem vendas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "porcentagem vendas": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.desenvolvimento_pessoal_vendas_ALL": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Desenvolvimento Pessoal Vendas ALL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desenvolvimento pessoal vendas ALL": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "desenvolvimento pessoal vendas ALL": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.desenvolvimento_pessoal_vendas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Desenvolvimento Pessoal Vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desenvolvimento pessoal vendas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "desenvolvimento pessoal vendas": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.porcentagem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Porcentagem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porcentagem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "porcentagem": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica.total_de_vendas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "registro_notas_logistica",
+			          "ConceptualProperty": "Total de vendas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de vendas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total de vendas": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de venda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_ano_has_registro_notas_logistica_data_entrega_variation_hierarquia_de_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_has_variation_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_entregas_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_mê_has_registro_notas_logistica_data_compra_variation_hierarquia_de_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_trimestre_has_registro_notas_logistica_data_compra_variation_hierarquia_de_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_ano_has_registro_notas_logistica_data_compra_variation_hierarquia_de_data_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_has_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_variation_hierarquia_de_data_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_compra_has_variation_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_compra": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra.variation.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_compra"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra.variation.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_compras_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_registro_livros_marketing": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_registro_livros_marketing"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_registro_notas_logisticas"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_total_de_vendas": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.total_de_vendas": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.total_de_vendas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.total_de_vendas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_total_de_vendas"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_porcentagem": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.porcentagem": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.porcentagem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.porcentagem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_porcentagem"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_desenvolvimento_pessoal_vendas": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.desenvolvimento_pessoal_vendas": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.desenvolvimento_pessoal_vendas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.desenvolvimento_pessoal_vendas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_desenvolvimento_pessoal_vendas"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_desenvolvimento_pessoal_vendas_ALL": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.desenvolvimento_pessoal_vendas_ALL": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.desenvolvimento_pessoal_vendas_ALL"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.desenvolvimento_pessoal_vendas_ALL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_desenvolvimento_pessoal_vendas_ALL"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_porcentagem_vendas": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.porcentagem_vendas": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.porcentagem_vendas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.porcentagem_vendas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_porcentagem_vendas"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_total_de_faturamento_ALL": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.total_de_faturamento_ALL": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.total_de_faturamento_ALL"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.total_de_faturamento_ALL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_total_de_faturamento_ALL"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_registro_notas_logistica_total_de_faturamento": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_notas_logistica.total_de_faturamento": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.total_de_faturamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.total_de_faturamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_total_de_faturamento"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_quantidade_vendida_logística": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.quantidade_vendida_logística": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.quantidade_vendida_logística"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.quantidade_vendida_logística"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_quantidade_vendida_logísticas"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_categoria_do_livro": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.categoria_do_livro": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.categoria_do_livro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.categoria_do_livro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_categoria_do_livros"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_índice": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.índice": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.índice"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.índice"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_índices"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_ID_fatura": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.ID_fatura": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.ID_fatura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.ID_fatura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_ID_faturas"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_codigo_postal_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.codigo_postal_entrega": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.codigo_postal_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.codigo_postal_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_codigo_postal_entregas"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_cidade_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.cidade_entrega": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.cidade_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.cidade_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_cidade_entregas"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_endereco_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.endereco_entrega": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.endereco_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.endereco_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_endereco_entregas"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_metodo_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.metodo_pagamento": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.metodo_pagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.metodo_pagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_metodo_pagamentos"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_data_entrega": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_data_entregas"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_has_data_compra": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica"
+			          }
+			        },
+			        "registro_notas_logistica.data_compra": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_compra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_compra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_notas_logisticas_have_data_compras"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_editora": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.editora": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.editora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.editora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_editoras"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_quantidade_venda": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.quantidade_venda": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.quantidade_venda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.quantidade_venda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_quantidade_venda"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_preço_promocional": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.preço_promocional": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.preço_promocional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.preço_promocional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_preço_promocionals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "registro_livros_marketing.preço_promocional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "preço_promocional_indicates_how_expensive_registro_livros_marketing_are"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_preço_unitário": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.preço_unitário": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.preço_unitário"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.preço_unitário"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_preço_unitários"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_categoria": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.categoria": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.categoria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.categoria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_categorias"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_título": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.título": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.título"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.título"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_títulos"
+			        }
+			      ]
+			    },
+			    "registro_livros_marketing_has_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_livros_marketing"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_livros_marketing": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing"
+			          }
+			        },
+			        "registro_livros_marketing.ID": {
+			          "Target": {
+			            "Entity": "registro_livros_marketing.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Object": {
+			              "Role": "registro_livros_marketing.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "registro_livros_marketing_have_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "registro_livros_marketing"
+			            },
+			            "Name": {
+			              "Role": "registro_livros_marketing.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ID_are_names_IDs_of_registro_livros_marketing"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_trimestre_has_registro_notas_logistica_data_entrega_variation_hierarquia_de_data_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "registro_notas_logistica_data_entrega_variation_hierarquia_de_data_mê_has_registro_notas_logistica_data_entrega_variation_hierarquia_de_data_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "registro_notas_logistica"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			          }
+			        },
+			        "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia": {
+			          "Target": {
+			            "Entity": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia"
+			            },
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "registro_notas_logistica.data_entrega.variation.hierarquia_de_data.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+
